@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>HEALTHCARE CHATBOT</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="./static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./static/css2/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/css/fontawesome-all.min.css" rel="stylesheet">
+  <link href="static/css/swiper.css" rel="stylesheet">
+<link href="static/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+ <!-- Navigation -->
+ <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+  <div class="container">
+
+      <!-- Image Logo -->
+      <a class="navbar-brand logo-image" href="/"><img src="static/images/logo.svg" alt="alternative"></a> 
+
+      <!-- Text Logo - Use this if you don't have a graphic logo -->
+      <!-- <a class="navbar-brand logo-text" href="index.html">Elma</a> -->
+
+      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav ms-auto navbar-nav-scroll">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/form">Home</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/history">History</a>
+            </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/login">Signout</a>
+            </li>
+              
+              
+          </ul>
+          <span class="nav-item social-icons">
+              <span class="fa-stack">
+                  <a href="#your-link">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-facebook-f fa-stack-1x"></i>
+                  </a>
+              </span>
+              <span class="fa-stack">
+                  <a href="#your-link">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-twitter fa-stack-1x"></i>
+                  </a>
+              </span>
+          </span>
+      </div> <!-- end of navbar-collapse -->
+  </div> <!-- end of container -->
+</nav> <!-- end of navbar -->
+<!-- end of navigation -->
+
+  <div >
+    <div class="container">
+      <br>
+      <h1 >Healthcare Chatbot</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">{{type}}
+        <br>
+        </h5>
+      </div>
+      <div class="row">
+    <table border="2">
+        <th>
+          <td>Id</td>
+            <td>User name</td>
+            <td>Symptoms</td>
+            <td>Predicted Disease</td>
+            <td>Recommended Medicine</td>
+            <td>Doctor near to You</td>
+            <td>Date of Search</td>
+        </th>
+   
+      </div style="margin-left10%" class='container'>
+     
+      
+            {% for item in results %}
+        <tr>
+          <td> {{item[0]}}</td>
+          <td> {{item[1]}}</td>
+          <td> {{item[2]}}</td>
+          <td> {{item[3]}}</td>
+          <td> {{item[4]}}</td>
+          <td> {{item[5]}}</td>
+          <td> {{item[6]}}</td>
+          
+          
+        </tr> 
+            {% endfor %}
+       
+         </table>
+
+      
+       
+        </div>
+      <br>
+
+    </div>
+  </div>
+
+
+    <br><br>
+  </div>
+  </div>>
+
+  
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src=".js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
+<style type="text/css">
+  * {
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.box3 {
+  width: 300px;
+  margin: 20px;
+  margin-left : 300px;
+  border-radius: 20px;
+  background: #00bfb6;
+  color: #fff;
+  padding: 20px;
+  text-align: right;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+}
+.box4 {
+  width: 400px;
+  margin: 20px;
+
+  margin-left : 0px;
+  border-radius: 20px;
+  background: #00bfb6;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+}
+
+
+
+.sb13:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid #00bfb6;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #00bfb6;
+  border-bottom: 15px solid transparent;
+  right: -16px;
+  top: 0px;
+}
+
+
+
+.sb14:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid #00bfb6;
+  border-top: 15px solid #00bfb6;
+  border-bottom: 15px solid transparent;
+  left: -16px;
+  top: 0px;
+}
+
+
+</style>

@@ -1,0 +1,62 @@
+DID,DNAME,PRECAU,OCCUR,RISKFAC
+0,Fungal Infection,"Bath twice, use dettol or neem in bathing water, keep infected area dry, use clean cloths
+",Common -More than 1 million cases per year (India),"Colonization, broad-spectrum antibiotics, indwelling central catheter"
+1,Food allergy,"Apply calamine, cover area with bandage, use ice to compress itching
+",Very common-More than 10 million cases per year (India),"Atopic dermatitis, Family history, hay fever"
+2,GERD,"Avoid fatty spicy food, avoid lying down after eating, maintain healthy weight, exercise
+",Very common-More than 10 million cases per year (India),"Obesity, Connective tissue disorders, such as scleroderma."
+3,Chronic cholestasis,"Cold baths, anti itch medicine, consult doctor, eat healthy
+",Common -More than 1 million cases per year (India),"infections from viruses such as HIV, hepatitis, cytomegalovirus"
+4,Drug allergy,"Stop irritation, consult nearest hospital, stop taking drug and follow up
+",Very common-More than 10 million cases per year (India),"History of food allergy or hay fever, history of drug allergy, Increased exposure to a drug"
+5,Peptic Ulcer,"Avoid fatty spicy food, consume probiotic food, eliminate milk, limit alcohol
+",Common -More than 1 million cases per year (India),"taking NSAIDs, Smoking, H. pylori infected, alcohol consumption, untreated stress."
+6,AIDS,"pre-exposure prophylaxis (PrEP),use condoms or dental dams with oral sex",Common -More than 1 million cases per year (India),"Having unprotected sex,having another sexually transmitted infection
+"
+7,Diabetes,"have balanced diet,exercise,consult doctor,follow up",Very common-More than 10 million cases per year (India),"coronary artery disease with chest pain, heart attack, stroke and narrowing of arteries"
+8,Gastroenteritis,"stop eating solid food for while, try taking small sips of water, rest, ease back into eating",Very common-More than 10 million cases per year (India),measles and immunodeficiencies put the patient at a higher risk for a gastrointestinal
+9,Asthma,"switch to loose clothing, take deep breaths, get away from trigger, seek help",Very common-More than 10 million cases per year (India),",Wheezing when exhaling,Shortness of breath,Chest tightness or pain."
+10,Hypertension,"meditation,salt baths,reduce stress,get proper sleep",Very common-More than 10 million cases per year (India),"Diabetes, Unhealthy Diet, Obesity, Excessive Alcohol, Tobacco Use, Family History, high BP"
+11,Migraine,"meditation,reduce stress,use polaroid glasses in sun,consult doctor",Very common-More than 10 million cases per year (India),"Skipping meals, Too much or too little sleep, Stress, Smoking, Depression, anxiety, excessive alcohol"
+12,Cervical spondylosis,"use heating pad or cold pack,exercise,take otc pain reliever,consult doctor",Very common-More than 10 million cases per year (India),"Older age, stress on your neck, Neck injuries, Genetic factors, Smoking"
+13,Brain hemorrhage,"Don't smoke,Don't use drugs,Investigate corrective surgery",Common -More than 1 million cases per year (India),"Smoking, excessive alcohol, hypocholesterolemia, drugs, Old age, male sex, chronic kidney disease"
+14,Jaundice,"drink plenty of water,consume milk thistle,eat fruits and high fibrous food,medication",Common -More than 1 million cases per year (India),"Premature birth, Significant bruising during birth, Blood type, Breast-feeding, Race"
+15,Malaria,"Avoid oily food, avoid non veg food, keep mosquitos out
+",Rare -Fewer than 1 million cases per year (India),"Availability of mosquito breeding site or stagnant water near the home, staying outdoors overnight.
+
+"
+16,Chicken pox,"Use neem in bathing, consume neem leaves, take vaccine, avoid public places
+",Rare -Fewer than 1 million cases per year (India),People who haven't already had chickenpox.
+17,Dengue,"drink papaya leaf juice, avoid fatty spicy food, keep mosquitos away, keep hydrated
+",Very rare- Fewer than 100 thousand cases per year (India),"Living or traveling in tropical areas, Prior infection with a dengue fever virus"
+18,Typhoid,"eat high calorie vegetables, antibiotic therapy, consult doctor, medication
+",Very rare- Fewer than 100 thousand cases per year (India),"Work in or travel to areas where typhoid fever is established, Drink contaminated water"
+19,Hepatitis A,"wearing of latex gloves when handling faeces, urine, saliva, and blood.",Rare -Fewer than 1 million cases per year (India),
+25,Tuberculosis,"cover mouth, consult doctor, medication
+",Common -More than 1 million cases per year (India),"AIDS, Severe kidney disease, Cancer treatment, Drugs to prevent rejection of transplanted organs"
+26,Common Cold,"drink vitamin c rich drinks, take vapour, avoid cold food, keep fever in check
+",Very common-More than 10 million cases per year (India),"Children younger than 6, weakened immune system, Smoking"
+27,Pneumonia,"Practice good hygiene, Don't smoke, Practice a healthy lifestyle, Avoid sick people
+",Very common-More than 10 million cases per year (India),"Asthma, chronic obstructive pulmonary disease (COPD) or heart disease, Smoking, weakened immunity"
+28,Piles,"Avoid fatty spicy food, consume witch hazel, warm bath with Epsom salt, consume Aloe Vera juice",Very common-More than 10 million cases per year (India),Pregnancy and older age
+29,Heart attack,"Eat a healthy diet, Get regular exercise, Limit alcohol, Don't smoke, Manage stress",Very common-More than 10 million cases per year (India),"Tobacco, old age, High blood cholesterol, Obesity, Diabetes, Stress, An autoimmune condition"
+30,Varicose veins,"Lie down flat and raise the leg high, use ointments, use vein compressor, don't stand still for long
+",Very common-More than 10 million cases per year (India),"Older age, being woman, Family history, Obesity, Standing or sitting for long periods of time."
+31,Hypothyroidism,"Reduce stress, exercise, eat healthy, get proper sleep
+",Very common-More than 10 million cases per year (India),"Woman, older age, family history of thyroid, autoimmune disease, Received radiation to your neck"
+33,Hypoglycemia,"Lie down on side, check in pulse, drink sugary drinks.
+",Common -More than 1 million cases per year (India),"Taking too much insulin, skipping a meal, or exercising harder than usual."
+34,Osteoarthritis,"acetaminophen, salt baths, Keep a healthy body weight, Prevent injury to your joints.
+",Very common-More than 10 million cases per year (India),"Older age, overweight, being a woman, Joint injuries, Bone deformities, certain metabolic diseases."
+35,Arthritis,"Exercise, use hot and cold therapy, try acupuncture, massage
+",Very common-More than 10 million cases per year (India),"Family history, Previous joint injury, older age, being woman, obesity"
+36,Paroxysmal Positional Vertigo,"Lie down, avoid sudden change in body, avoid abrupt head movement, relax
+",Common -More than 1 million cases per year (India),"Age 50 and older, being woman, head injury, disorder of the balance organs of your ear."
+37,Acne,"Bath twice, avoid fatty spicy food, drink plenty of water, avoid too many products
+",Very common-More than 10 million cases per year (India),"Being teenager, Hormonal changes, Friction or pressure on your skin, Stress, certain medicines."
+38,Urinary tract infection,"Drink plenty of water, increase vitamin c intake, drink cranberry juice, take probiotics
+",Very common-More than 10 million cases per year (India),"Being women, Women who use diaphragms, A suppressed immune system, Kidney stones."
+39,Psoriasis,"Wash hands with warm soapy water, stop bleeding using pressure, consult doctor, salt baths
+",Very common-More than 10 million cases per year (India),"Family history, Viral and bacterial infections, Obesity, Lesions, Smoking."
+40,Impetigo,"Wash your hands often with soap and water, use alcohol hand rubs, Do not share personal items
+",Very common-More than 10 million cases per year (India),"Diabetes, weakened immune system, children ages 2 to 5, Crowded conditions, Broken skin"

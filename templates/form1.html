@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>HEALTHCARE CHATBOT</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="./static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./static/css2/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/css/fontawesome-all.min.css" rel="stylesheet">
+  <link href="static/css/swiper.css" rel="stylesheet">
+<link href="static/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+        <div class="container">
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="/"><img src="static/images/logo.svg" alt="alternative"></a>
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text" href="index.html">Elma</a> -->
+
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/form">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/history">History</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/login">Signout</a>
+                    </li>
+
+
+                </ul>
+                <span class="nav-item social-icons">
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
+                        </a>
+                    </span>
+                </span>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+    <div>
+        <div class="container">
+            <br>
+            <h1>Healthcare Chatbot</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">
+                    {{type}}
+                    <br>
+                </h5>
+            </div>
+            <form action='/start1' method="post">
+
+
+                <label for="first_name"><b>Select Your symptoms</b></label>
+                <br>
+                <select name="symp" multiple style="display: block; height: max-content;">
+                    <option value="acidity"> acidity</option>
+                    <option value="altered_sensorium">altered sensorium</option>
+                    <option value="abnormal_menstruation">abnormal menstruation</option>
+                    <option value="anxiety"> anxiety</option>
+                    <option value="abdominal_pain"> abdominal pain</option>
+                    <option value="acute_liver_failure"> acute liver failure</option>
+                    <option value="blackheads"> blackheads</option>
+                    <option value="blister">blister</option>
+                    <option value="blood_in_sputum">blood in sputum</option>
+                    <option value="burning_micturition"> burning_micturition</option>
+                    <option value="breathlessness"> breathlessness</option>
+                    <option value="blurred_and_distorted_vision">blurred and distorted vision</option>
+                    <option value="back_pain"> Back pain</option>
+                    <option value="bloody_stool"> bloody stool</option>
+                    <option value="brittle_nails"> brittle nails</option>
+                    <option value="bruising"> bruising</option>
+                    <option value="bladder_discomfort">bladder discomfort</option>
+                    <option value="belly_pain"> belly pain</option>
+                    <option value="chills"> chills</option>
+                    <option value="continuous_sneezing"> continuous_sneezing</option>
+                    <option value="cold_hands_and_feets"> cold_hands_and_feets</option>
+                    <option value="cough"> cough</option>          
+                    <option value="coma"> coma</option>
+                    <option value="constipation"> constipation</option>
+                    <option value="congestion"> congestion</option>
+                    <option value="chest_pain"> chest pain</option>
+                    <option value="continuous_feel_of_urine"> continuous feel of urine</option>
+                    <option value="cramps"> scramps</option>
+                    <option value="dischromic _patches"> dischromic patches</option>
+                    <option value="diarrhoea">diarrhoea</option>
+                    <option value="dark_urine"> dark_urine</option>
+                    <option value="dizziness"> dizziness</option>
+                    <option value="depression"> depression</option>
+                    <option value="distention_of_abdomen">distention of abdomen</option>
+                    <option value="enlarged_thyroid"> enlarged thyroid</option>
+                    <option value="foul_smell_of urine">foul smell of urine</option>
+                    <option value="fatigue"> fatigue</option>
+                    <option value="fluid_overload"> fluid overload</option>
+                    <option value="fast_heart_rate">fast heart rate</option>
+                    <option value="family_history"> family history</option>
+                    <option value="fluid_overload">fluid overload</option>
+                    <option value="high_fever"> high_fever</option>
+                    <option value="hydration"> hydration</option>
+                    <option value="headache"> headache</option>
+                    <option value="history_of_alcohol_consumption"> history of alcohol consumption</option>
+                    <option value="itching"> itching</option>
+                    <option value="irregular_sugar_level"> irregular_sugar_level</option>
+                    <option value="indigestion"> indigestion</option>
+                    <option value="irritation_in_anus"> irritation in anus</option>
+                    <option value="increased_appetite"> increased appetite</option>
+                    <option value="internal_itching"> internal itching</option>
+                    <option value="irritability"> irritability</option>
+                    <option value="joint_pain">joint_pain</option>
+                    <option value="knee_pain"> knee pain</option>
+                    <option value="lack_of_concentration"> lack of concentration</option>
+                    <option value="lethargy"> lethargy</option>
+                    <option value="loss_of_appetite"> loss_of_appetite</option>
+                    <option value="loss_of_balance"> loss of balance</option>
+                    <option value="loss_of_smell"> loss of smell</option>
+                    <option value="mucoid_sputum">mucoid sputum</option>
+                    <option value="muscle_wasting"> muscle_wasting</option>
+                    <option value="mood_swings"> mood_swings</option>
+                    <option value="mild_fever"> mild fever</option>
+                    <option value="malaise"> malaise</option>
+                    <option value="muscle_weakness">muscle weakness</option>
+                    <option value="muscle_pain"> muscle pain</option>
+                    <option value="movement_stiffness"> movement stiffness</option>
+                    <option value="nodal_skin_eruptions"> nodal_skin_eruptions</option>
+                    <option value="nausea"> nausea</option>
+                    <option value="neck_pain"> neck pain</option>
+                    <option value="obesity">bobesity</option>
+                    <option value="polyuria"> polyuria</option>
+                    <option value="patches_in_throat"> patches_in_throat</option>
+                    <option value="pain_behind_the_eyes"> pain_behind_the_eyes</option>
+                    <option value="palpitations"> palpitations</option>
+                    <option value="painful_walking">painful walking</option>
+                    <option value="pus_filled_pimples"> pus filled pimples</option>
+                    <option value="phlegm"> phlegm</option>
+                    <option value="pain_during_bowel_movements"> pain during bowel movements</option>
+                    <option value="pain_in_anal_region"> pain in anal region</option>
+                    <option value="puffy_face_and_eyes"> puffy face and eyes</option>
+                    <option value="passage_of_gases"> passage of gases</option>
+                    <option value="prominent_veins_on_calf"> prominent veins on calf</option>
+                    <option value="red_sore_around_nose">red sore around nose</option>
+                    <option value="restlssness"> restlssness</option>
+                    <option value="redness_of_eyes"> redness of eyes</option>
+                    <option value="receiving_blood_transfusion">receiving blood transfusion</option>
+                    <option value="receiving_unsterile_injections">receiving unsterile injections</option>
+                    <option value="runny_nose"> runny nose</option>
+                    <option value="rusty_sputum">rusty sputum</option>
+                    <option value="red_spots_over_body"> red spots over body</option>
+                    <option value="sunken_eyes"> sunken_eyes</option>
+                    <option value="sweating"> sweating</option>
+                    <option value="skin_rash"> skin rash</option>
+                    <option value="spotting_urination"> spotting_urination</option>
+                    <option value="shivering"> shivering</option>
+                    <option value="stomach_pain"> stomach_pain</option>
+                    <option value="swelling_of_stomach"> swelling of stomach</option>
+                    <option value="swelled_lymph_nodes"> swelled lymph nodes</option>
+                    <option value="sinus_pressure"> sinus pressure</option>
+                    <option value="swollen_legs">swollenlegs</option>
+                    <option value="swollen_blood_vessels"> swollen blood vessels</option>
+                    <option value="slurred_speech"> slurred speech</option>
+                    <option value="small_dents_in_nails">small dents in nails</option>
+                    <option value="stiff_neck"> stiff neck</option>
+                    <option value="swelling_joints"> swelling joints</option>
+                    <option value="scurring"> scurring</option>
+                    <option value="skin_peeling"> skin peeling</option>
+                    <option value="silver_like_dusting"> silver like dusting</option>
+                    <option value="stomach_bleeding">stomach bleeding</option>
+                    <option value="spinning_movements">spinning movements</option>
+                    <option value="throat_irritation"> throat irritation</option>
+                    <option value="toxic_look_(typhos)"> toxic look (typhos)</option>
+                    <option value="ulcers_on_tongue"> ulcers_on_tongue</option>
+                    <option value="unsteadiness"> unsteadiness</option>
+                    <option value="visual_disturbances"> visual disturbances</option>
+                    <option value="vomiting"> "vomiting</option>
+                    <option value="watering_from_eyes"> watering from eyes</option>
+                    <option value="weight_gain"> weight_gain</option>
+                    <option value="weight_loss"> weight_loss</option>
+                    <option value="weakness_in_limbs"> weakness in limbs</option>
+                    <option value="weakness_of_one_body_side"> weakness of one body side</option>
+                    <option value="yellowish_skin"> yellowish_skin</option>
+                    <option value="yellow_urine"> yellow urine</option>
+                    <option value="yellowing_of_eyes"> yellowing of eyes</option>
+                    <option value="yellow_crust_ooze">yellow crust ooze</option>
+                </select>
+
+
+                <br>
+                <br>
+
+                <div class="row center">
+                    <button type="submit" class="btn-large waves-effect waves-light orange">Send</button>
+                </div>
+            </form>
+            <div class="row">
+
+            </div>
+            {% for chat in chats %}
+            {% if "You:" in chat %}
+            <div class="box3 sb13">
+                {{chat[4:]}}
+            </div>
+            {% else %}
+            <div class="box4 sb14">
+                {{chat}}
+            </div>
+            {% endif %}
+            {% endfor %}
+            <br>
+
+        </div>
+    </div>
+
+
+    <br><br>
+    </div>
+    </div>>
+
+
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src=".js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="{{ url_for('static', filename='sound.js') }}"></script>
+
+</body>
+</html>
+<style type="text/css">
+  * {
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.box3 {
+  width: 300px;
+  margin: 20px;
+  margin-left : 300px;
+  border-radius: 20px;
+  background: #00bfb6;
+  color: #fff;
+  padding: 20px;
+  text-align: right;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+}
+.box4 {
+  width: 400px;
+  margin: 20px;
+
+  margin-left : 0px;
+  border-radius: 20px;
+  background: #00bfb6;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+}
+
+
+
+.sb13:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid #00bfb6;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #00bfb6;
+  border-bottom: 15px solid transparent;
+  right: -16px;
+  top: 0px;
+}
+
+
+
+.sb14:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid #00bfb6;
+  border-top: 15px solid #00bfb6;
+  border-bottom: 15px solid transparent;
+  left: -16px;
+  top: 0px;
+}
+
+
+</style>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Logon</title>
+
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700|Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="static/css/animate.css">
+	<!-- Custom Stylesheet -->
+	<link rel="stylesheet" href="static/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		
+		<div class="login-box animated fadeInUp">
+			<div class="box-header">
+				<h2>Register Here</h2>
+			</div>
+			<form action="/signup" method="GET">
+			<label for="username">Username</label>
+			<br/>
+			<input type="text" name="user" id="username">
+			<br/>
+			<label for="name">Name</label>
+			<br/>
+			<input type="text" name="name" id="name">
+			<br/>
+			<label for="email">Email</label>
+			<br/>
+			<input type="text" name="email" id="email">
+			<br/>
+			<label for="mobile">Mobile Number</label>
+			<br/>
+			<input type="text" name="mobile" id="mobile">
+			<br/>
+			
+			<label for="password">Password</label>
+			<br/>
+			<input type="password" name="password" id="password">
+			<br/>
+			<button type="submit">Sign Up</button>
+		</form>
+			<br/>
+			
+			<p style="font-size: smaller;">Login here! <a href="/login">Sign in</a></p>
+		</div>
+	</div>
+</body>
+
+<script>
+	$(document).ready(function () {
+    	$('#logo').addClass('animated fadeInDown');
+    	$("input:text:visible:first").focus();
+	});
+	$('#username').focus(function() {
+		$('label[for="username"]').addClass('selected');
+	});
+	$('#username').blur(function() {
+		$('label[for="username"]').removeClass('selected');
+	});
+	$('#password').focus(function() {
+		$('label[for="password"]').addClass('selected');
+	});
+	$('#password').blur(function() {
+		$('label[for="password"]').removeClass('selected');
+	});
+</script>
+
+</html>

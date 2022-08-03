@@ -1,0 +1,47 @@
+Medicine_ID,Medicine_Name,DID,Medicine_Composition,Medicine_Description
+201,Antifungal cream,0,"clotrimazole, econazole, ketoconazole, miconazole, tioconazole, terbinafine, and amorolfine",a pharmaceutical fungicide or fungistatic used to treat and prevent mycosis
+202,Antihistamine,1,"Brompheniramine, Cetirizine, Chlorpheniramine",Antihistamines are drugs which treat allergic rhinitis and other allergies.
+203,antacid,2,"calcium carbonate, magnesium hydroxide, aluminum hydroxide and/or sodium bicarbonate",An antacid is a substance which neutralizes stomach acidity and is used to relieve heartburn
+204,Ursodeoxycholic acid (UDCA),3,ursodeoxycholic acid,used for the dissolution of cholesterol gallstones.
+205,Antihistamine,4,"Brompheniramine, Cetirizine, Chlorpheniramine",Antihistamines are drugs which treat allergic rhinitis and other allergies.
+206,Proton pump inhibitors,5,"Prilosec,Prevacid ,Aciphex,Nexium Protonix",reduce stomach acid by blocking the action of the parts of cells that produce acid
+207,lamivudne and zidovudine,6,"esomeprazole, lansoprazole, omeprazole, pantoprazole and rabeprazole",
+208,"Insulin
+
+",7,composed of two peptide chains referred to as the A chain and B chain,"It regulates the metabolism of carbohydrates, fats and protein"
+209,"Pepto-Bismol,",8,"flavor, magnesium aluminum silicate, methylcellulose, saccharin sodium",antacid elixir medication used to treat temporary discomforts of the stomach
+210,Levalbuterol,9,0.31 mg of levalbuterol or 0.63 mg of levalbuterol,short-acting bronchodilator that relaxes muscles in the airways;increases air flow to the lungs
+211,Benazepril (Lotensin),10,carboxyl-containing angiotensin-converting enzyme (ACE) inhibitor,"Relaxes blood vessels, lowers blood pressure and prevents diabetes-related kidney damage "
+212,antipsychotics,11,"prochlorperazine, droperidol, haloperidol, and chlorpromazine",effective treatment of acute headaches and refractory chronic daily headache.
+213,Nonsteroidal anti-inflammatory drugs (NSAIDs),12,"ibuprofen, acetylsalicylic acid, naproxen, indomethacin, meloxicam, and piroxicam","Relieves pain, decreases inflammation and reduces fever."
+214,Antihypertensive drug,13,contains drugs,Lowers blood pressure.
+215,ceftrine and jaundice neonate,14,a class of oral hypoglycemics that block the enzyme dipeptidyl peptidase-4,it is an antibiotic used for the treatment of jaundice.
+216,Artemisinin-based combination therapies,15,"lumefantrine, mefloquine, amodiaquine, sulfadoxine, piperaquine and chlorproguanil/dapsone.",Each ACT is a combination of two or more drugs that work against the malaria parasite in different ways.
+217,Antihistamine,16,"Brompheniramine, Cetirizine, Chlorpheniramine",Antihistamines are drugs which treat allergic rhinitis and other allergies.
+218,Analgesic,17,Acetaminophen,Acts as a painkiller to treat fever and any pain
+219,Chloramphenicol,18,"2,2-dichloro-N- [(aR,bR)-b-hydroxy-a-hydroxymethyl- 4-nitrophenethyl] acetamide",Chloramphenicol is an antibiotic useful for the treatment of a number of bacterial infections.
+220,No Medicine,19,No Medicine,No specific treatment exists for hepatitis A. Your body will clear the hepatitis A virus on its own.
+221,entecavir (Baraclude),20,entecavir,can help fight the virus and slow its ability to damage your liver.
+222,NS5A inhibitors and NS5B polymerase inhibitors,21,NS5A inhibitors and NS5B polymerase,which target a protein and enzyme
+223,"interferon-alpha
+
+",22,cytokine,this type of treatment that mobilizes the body's immune system to fight mainly chronic hepatitis C
+224,I V fluids dextrose,23,dextrose,not much severe so suportive treatment
+225,corticosteroids,24,dexamethasone,used to provide relief for inflamed areas of the body
+226,Isoniazid (antibiotics),25,"silicon dioxide, lactose monohydrate, pregelatinized starch (corn), and stearic acid.",Isoniazid is an antibiotic used for the treatment of tuberculosis.
+227,Antiviral drugs,26,contains drugs,used to prevent from the virus of swine flu.
+228,Penicillin,27,"VK (Penicillin V Potassium Tablets USP), for oral administration, contain 250 mg",treat uncomplicated community acquired pneumonia as effectively as broad spectrum agents.
+229,Analgesic,28,Acetaminophen,Acts as a painkiller to treat fever and any pain
+230,Acebutolol (Sectral),29,hydrochloride salt of (±)N-[3-Acetyl-4-[2- hydroxy-3-[(1- methylethyl)amino]propoxy]phenyl],Acebutolol is used to treat an irregular heartbeat.
+231,Chloroquine phosphate,30,"500 mg of chloroquine phosphate USP, equivalent to 300 mg chloroquine base.",Chloroquine is the preferred treatment for any parasite that is sensitive to the drug.
+232,synthetic thyroid hormone levothyroxine ,31,"Levo-T, Synthroid, others",used to treat hypo thyroidism
+233,antithyroid agent,32,carbimazole,used to treat an overactive thyroid
+234,stimulant,33,"methylxanthines (methylated purines), cocaine, and nicotine.","Increases neurotransmitter levels, heart rate and blood pressure. Decreases appetite and sleep."
+235,Nonsteroidal anti-inflammatory drugs (NSAIDs),34,"ibuprofen, acetylsalicylic acid, naproxen, indomethacin, meloxicam, and piroxicam","Relieves pain, decreases inflammation and reduces fever."
+236,therapies and self-care,35,NIL,NIL
+237,benzodiazepines,36,"lumefantrine, mefloquine, amodiaquine, sulfadoxine, piperaquine and chlorproguanil/dapsone.",used to treat vertigo
+238,differin,37,Adapalene,used to treat acne
+239,diuretic,38,"hydrochlorothiazide, chlorthalidone, or indapamide","reduce the amount of calcium released into the urine
+"
+240,Steroid,39,"17carbon atom, bonded in 4 fused ring, 3 6-member cyclohexane ring","are chemicals, that your body makes naturally helps your organs, tissues, and cells do their jobs."
+241,Penicillin,40,Penicillin 30,Penicillins are a group of antibiotics used to treat a wide range of bacterial infections.
